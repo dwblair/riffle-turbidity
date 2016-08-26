@@ -2,4 +2,4 @@
 
 <img src="pics/schem.png">
 
-<img src="turbidity_proto.png">
+<img src="pics/turbidity_proto.png">
