@@ -1,4 +1,4 @@
-# riffle-turbidity
+# Turbidity sensor prototype
 
 ## Background
 
