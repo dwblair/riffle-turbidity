@@ -12,11 +12,11 @@ The basic idea, described [here](http://www.analog.com/media/en/technical-docume
 
 ## Circuit
 
-The circuit consists of two main parts -- the 'emitter' (the light source shone into the water) and the 'detector' (the light measurement).
+The circuit consists of two main parts -- an **emitter** (the light source shone into the water) and a **detector** (the light measurement).
 
-The emitter is a photodiode (with wavelength around 800 nm, as this is considered to have better scattering properties for turbidity measurements [REF]), pulsed via 'pulse width modulation' [REF] via a pin on the Riffle (a PWM Arduino IDE pin) at a frequency of about 2 kHz.  
+The **emitter** is a photodiode (with wavelength around 800 nm, as this is considered to have better scattering properties for turbidity measurements [REF]), pulsed via 'pulse width modulation' [REF] via a pin on the Riffle (a PWM Arduino IDE pin) at a frequency of about 2 kHz.  
 
-The detector consists of a transimpedance amplifier photodiode circuit, followed by a rectifier (to only allow 'positive' amplitude pulses through) and a high-pass filter (to suppress frequencies lower than the emitter frequency -- in this case, with a cutoff of about 1.5 kHz).
+The **detector** consists of a transimpedance amplifier photodiode circuit, followed by a rectifier (to only allow 'positive' amplitude pulses through) and a high-pass filter (to suppress frequencies lower than the emitter frequency -- in this case, with a cutoff of about 1.5 kHz).
 
 
 ## BOM
