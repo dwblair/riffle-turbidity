@@ -19,9 +19,11 @@ The **emitter** is a photodiode (with wavelength around 800 nm, as this is consi
 The **detector** consists of a transimpedance amplifier photodiode circuit, followed by a rectifier (to only allow 'positive' amplitude pulses through) and a high-pass filter (to suppress frequencies lower than the emitter frequency -- in this case, with a cutoff of about 1.5 kHz).
 
 
-## BOM
+## Bill of Materials
 
-- Op Amp (JFET) [AD820 datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/AD820.pdf)
+The required components for the circuit are:
+
+- A JFET Op Amp like the [AD820](http://www.analog.com/media/en/technical-documentation/data-sheets/AD820.pdf)
 - Emitter: [SFH 213](http://www.osram-os.com/Graphics/XPic5/00101689_0.pdf)
 - Detector: [HIR204](http://www.osram-os.com/Graphics/XPic5/00101689_0.pdf)
 - Two 1 kiloOhm resistors
@@ -35,3 +37,13 @@ The **detector** consists of a transimpedance amplifier photodiode circuit, foll
 ## Diagram for Riffle Protoboard
 
 <img src="pics/turbidity_proto.png">
+
+## Code
+
+Arduino IDE code for this circuit (see 'riffle_turbidity.ino' in this repoistory) merely requires generating a pulse width modulated frequency on the emitter circuit at the appropriate frequency, and then measuring the analog output voltage of the filter circuit. No special libraries are required.
+ 
+## Calibration
+
+[REF for DIY turbidity sensor and associated techniques]
+
+
