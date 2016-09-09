@@ -107,11 +107,8 @@ Monitoring Residential Drinking Water Quality: http://www2.ucy.ac.cy/~faniseng/p
 # Background Reading
 
 - Fondriest review: http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/
-
 - Hach overview: http://www.hach.com/asset-get.download-en.jsa?code=61798
-
 - Wikipedia: https://en.wikipedia.org/wiki/Turbidity
-
 - USGS http://water.usgs.gov/owq/FieldManual/Chapter6/6.7_contents.html
 
 
