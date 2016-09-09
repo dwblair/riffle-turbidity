@@ -98,11 +98,11 @@ A useful research project would be to investigate, using a commercial turbidimet
 
 # References
 
-[1] Kelley et al., An Affordable Open Source Turbidimeter http://www.mdpi.com/1424-8220/14/4/7142/pdf
-[2] Hackteria.org, Turbiduino:  http://hackteria.org/wiki/DIY_turbidity_meters
-[3] Lambrou et al., A Nephelometric Turbidity System for
+1. Kelley et al., An Affordable Open Source Turbidimeter http://www.mdpi.com/1424-8220/14/4/7142/pdf
+2. Hackteria.org, Turbiduino:  http://hackteria.org/wiki/DIY_turbidity_meters
+3. Lambrou et al., A Nephelometric Turbidity System for
 Monitoring Residential Drinking Water Quality: http://www2.ucy.ac.cy/~faniseng/publications/SENSAPPEAL09.pdf
-[4] Cutting oil:  https://www.amazon.com/CRC-14050-Cutting-Thread-Lubricant/dp/B000M8NYIU
+4. Cutting oil:  https://www.amazon.com/CRC-14050-Cutting-Thread-Lubricant/dp/B000M8NYIU
 
 # Background Reading
 
