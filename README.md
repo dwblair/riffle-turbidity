@@ -48,11 +48,11 @@ The required components for the circuit are:
 
 ## Schematic 
 
-<img src="pics/schem.png" width=400>
+<img src="pics/schem.png" width=600>
 
 ## Diagram for Riffle Protoboard
 
-<img src="pics/turbidity_proto.png" width=400>
+<img src="pics/turbidity_proto.png" width=600>
 
 ## Code
 
