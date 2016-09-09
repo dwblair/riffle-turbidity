@@ -84,7 +84,9 @@ Helpfully, the researchers in [3] used a similar approach to [1], but also publi
 
 <img src="pics/ntu_vs_oil.png" width=400>
 
-**Turbidity calibration research project.** A useful research project would be to investigate, using a commercial turbidimeter, the variability in this relationship between NTU and cutting oil concentration, both within and across particular brands of cutting oil.    If it was found that, for example, a particular brand of cutting oil had a relatively consistent NTU vs. concentration, that brand could be recommended as an NTU standard.  
+### Turbidity calibration research project.
+
+A useful research project would be to investigate, using a commercial turbidimeter, the variability in this relationship between NTU and cutting oil concentration, both within and across particular brands of cutting oil.    If it was found that, for example, a particular brand of cutting oil had a relatively consistent NTU vs. concentration, that brand could be recommended as an NTU standard.  
 
 # References
 
