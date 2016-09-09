@@ -84,7 +84,7 @@ Helpfully, the researchers in [3] used a similar approach to [1], but also publi
 
 A useful research project would be to investigate, using a commercial turbidimeter, the variability in this relationship between NTU and cutting oil concentration, both within and across particular brands of cutting oil.    If it was found that, for example, a particular brand of cutting oil had a relatively consistent NTU vs. concentration, that brand could be recommended as an NTU standard.  
 
-# Research Notes on Public Lab
+## Research Notes on Public Lab
 
 - Overview of turbidity: https://publiclab.org/notes/donblair/08-25-2015/turbidity-001
 - Simple 'reflection ratio' sensor: https://publiclab.org/notes/donblair/11-01-2015/turbidity-sensor-prototype
@@ -92,7 +92,7 @@ A useful research project would be to investigate, using a commercial turbidimet
 - First tests of modulation - filtering technique: https://publiclab.org/notes/donblair/03-23-2016/sync-mod-for-ambient-background-removal-first-tests
 - Ben Hickman's design:  https://publiclab.org/notes/bhickman/05-09-2016/turbidity-sensor
 
-# References
+## References
 
 1. Kelley et al., An Affordable Open Source Turbidimeter http://www.mdpi.com/1424-8220/14/4/7142/pdf
 2. Hackteria.org, Turbiduino:  http://hackteria.org/wiki/DIY_turbidity_meters
@@ -100,7 +100,7 @@ A useful research project would be to investigate, using a commercial turbidimet
 Monitoring Residential Drinking Water Quality: http://www2.ucy.ac.cy/~faniseng/publications/SENSAPPEAL09.pdf
 4. Cutting oil:  https://www.amazon.com/CRC-14050-Cutting-Thread-Lubricant/dp/B000M8NYIU
 
-# Guides to turbidity
+## Guides to turbidity
 
 - Fondriest review: http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/
 - Hach overview: http://www.hach.com/asset-get.download-en.jsa?code=61798
