@@ -4,13 +4,13 @@
 
 Turbidity, an optical technique for assessing suspended solids in liquid -- is an important water quality parameter.  Typically, light is shone into a liquid sample, and the amount of light scattered back out of the sample (off of particles suspended in it) is measured; the intensity of this scattered light is considered to be related to the amount of suspended solids in the sample.  
 
-<img src = "pics/turbidimeter_designs.png">
+<img src = "pics/turbidimeter_designs.png" with=300>
 
 **Avoiding ambient light effects**. Most of the 'DIY' methods in the literature [1], [2], [3] for measuring turbidity avoid ambient light contamination by creating an opaque enclosure around the sample being tested (a sample holder inside a light-tight box). For a field-based instrument, measurements must be done continuously, and allow for the passage of fluid through the sampling area.  This requirement of fluid flow makes designing a light-tight enclosure difficult, adding to the cost of the design.
 
 The circuit design in this repository takes a different approach: it uses a light pulse modulation and filtering technique that, in principle, does not require a light-tight enclosure. 
 
-<img src="pics/pulse_filter.png">
+<img src="pics/pulse_filter.png" with=300>
 
 ( _Source:  http://www.analog.com/media/en/technical-documentation/technical-articles/Optimizing-Precision-Photodiode-Sensor-Circuit-Design-MS-2624.pdf_ )
 
@@ -56,9 +56,9 @@ Researchers in [3] initially attempted using suspensions of skim milk for calibr
 
 In both cases, the same samples were measured with the DIY device and with a commercial turbidimeter device (Hach 2100P in [3], MicroTPI model from HF Scientific in [1]), and linear curve was found to describe the relationship between the DIY device output and that of the commercial instrument.  
 
-<img src="pics/ref3_comparison.png">
+<img src="pics/ref3_comparison.png" with=300>
 
-<img src="pics/ref1_comparison.png">
+<img src="pics/ref1_comparison.png" with=300>
 
 
 [1] Kelley et al., An Affordable Open Source Turbidimeter http://www.mdpi.com/1424-8220/14/4/7142/pdf
