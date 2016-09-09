@@ -56,9 +56,9 @@ Researchers in [3] initially attempted using suspensions of skim milk for calibr
 
 In both cases, the same samples were measured with the DIY device and with a commercial turbidimeter device (Hach 2100P in [3], MicroTPI model from HF Scientific in [1]), and linear curve was found to describe the relationship between the DIY device output and that of the commercial instrument.  
 
-<img src="ref3_comparison.png">
+<img src="pics/ref3_comparison.png">
 
-<img src="ref1_comparison.png">
+<img src="pics/ref1_comparison.png">
 
 
 [1] Kelley et al., An Affordable Open Source Turbidimeter http://www.mdpi.com/1424-8220/14/4/7142/pdf
