@@ -6,13 +6,13 @@ Turbidity, an optical technique for assessing suspended solids in liquid -- is a
 
 Various instrumentation technqiues have been developed to mitigate the effects of particle size, color, and distrubtion when attempting to determine a simple 'concentration' metric from light-based measurements.  Most of these techniques involve special arrangements of the light sources and light detectors:
 
-<img src = "pics/turbidimeter_designs.png" width=200>
+<img src = "pics/turbidimeter_designs.png" width=400>
 
 For the most basic arrangement (a single light source and single detector), it has been determined that the best arrangement for avoiding unwanted scattering artefacts is a 'right angle' arrangement between source and detector. 
 
 **Avoiding ambient light effects**. Most of the 'DIY' methods in the literature [1], [2], [3] for measuring turbidity -- which are usually based on instrumetation that is typically located within a laboratory -- attempt to avoid ambient light contamination by creating an opaque enclosure around the sample being tested (a sample holder inside a light-tight box). 
 
-<img src="pics/cuvette.png" width=200>
+<img src="pics/cuvette.png" width=400>
 
 _Source: Ref [1] below_
 
@@ -20,7 +20,7 @@ For a field-based instrument, measurements must be done continuously, and allow 
 
 The circuit design in this repository takes a different approach: it uses a light pulse modulation and filtering technique that, in principle, does not require a light-tight enclosure. 
 
-<img src="pics/pulse_filter.png" width=200>
+<img src="pics/pulse_filter.png" width=400>
 
 ( _Source:  http://www.analog.com/media/en/technical-documentation/technical-articles/Optimizing-Precision-Photodiode-Sensor-Circuit-Design-MS-2624.pdf_ )
 
@@ -48,11 +48,11 @@ The required components for the circuit are:
 
 ## Schematic 
 
-<img src="pics/schem.png" width=200>
+<img src="pics/schem.png" width=400>
 
 ## Diagram for Riffle Protoboard
 
-<img src="pics/turbidity_proto.png" width=200>
+<img src="pics/turbidity_proto.png" width=400>
 
 ## Code
 
@@ -70,11 +70,11 @@ In both cases, the same samples were measured with the DIY device and with a com
 
 In the below figure from Ref [1]), for example, samples from 0 to 0.5 NTU (determined by the commercial instrument) were measured both with a commercial turbidimeter (x-axis), and with the DIY device (y-axis).  A linear fit was constructed for the resultant measurements in order to translate the DIY output units (in the case of this device, frequency) to the more standard NTU.
 
-<img src="pics/ref1_relationship.png" width=200>
+<img src="pics/ref1_relationship.png" width=400>
 
 **Note**: this linear model did not work as well across a wider range of turbidity; so the researchers in [1] broke the samples down into several distinct regions:  0–0.5 NTU; 0.5–30 NTU; 30–300 NTU; and 300–1,100 NTU, which were locally linear. 
 
-<img src="pics/ref1_wide_region.png" width=200>
+<img src="pics/ref1_wide_region.png" width=400>
 
 ### Avoiding expensive commercial instrumentation
 
@@ -82,7 +82,7 @@ Cutting oil is inexpensive, and [widely available commercially](https://www.amaz
 
 Helpfully, the researchers in [3] used a similar approach to [1], but also published a figure showing the relationship between NTU and the various concentrations of cutting oil used in their samples:
 
-<img src="pics/ntu_vs_oil.png" width=200>
+<img src="pics/ntu_vs_oil.png" width=400>
 
 **Turbidity calibration research project.** A useful research project would be to investigate, using a commercial turbidimeter, the variability in this relationship between NTU and cutting oil concentration, both within and across particular brands of cutting oil.    If it was found that, for example, a particular brand of cutting oil had a relatively consistent NTU vs. concentration, that brand could be recommended as an NTU standard.  
 
