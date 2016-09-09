@@ -6,7 +6,7 @@ Turbidity, an optical technique for assessing suspended solids in liquid -- is a
 
 Various instrumentation technqiues have been developed to mitigate the effects of particle size, color, and distrubtion when attempting to determine a simple 'concentration' metric from light-based measurements.  Most of these techniques involve special arrangements of the light sources and light detectors:
 
-<img src = "pics/turbidimeter_designs.png" with=300>
+<img src = "pics/turbidimeter_designs.png" width=200>
 
 For the most basic arrangement (a single light source and single detector), it has been determined that the best arrangement for avoiding unwanted scattering artefacts is a 'right angle' arrangement between source and detector. 
 
@@ -20,7 +20,7 @@ For a field-based instrument, measurements must be done continuously, and allow 
 
 The circuit design in this repository takes a different approach: it uses a light pulse modulation and filtering technique that, in principle, does not require a light-tight enclosure. 
 
-<img src="pics/pulse_filter.png" with=300>
+<img src="pics/pulse_filter.png" width=200>
 
 ( _Source:  http://www.analog.com/media/en/technical-documentation/technical-articles/Optimizing-Precision-Photodiode-Sensor-Circuit-Design-MS-2624.pdf_ )
 
@@ -48,11 +48,11 @@ The required components for the circuit are:
 
 ## Schematic 
 
-<img src="pics/schem.png">
+<img src="pics/schem.png" width=200>
 
 ## Diagram for Riffle Protoboard
 
-<img src="pics/turbidity_proto.png">
+<img src="pics/turbidity_proto.png" width=200>
 
 ## Code
 
