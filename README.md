@@ -4,7 +4,7 @@
 
 Turbidity, an optical technique for assessing suspended solids in liquid -- is an important water quality parameter.  Typically, light is shone into a liquid sample, and the amount of light scattered back out of the sample (off of particles suspended in it) is measured; the intensity of this scattered light is considered to be related to the amount of suspended solids in the sample.  
 
-<img src = "pics/turbidmeter_designs.png">
+<img src = "pics/turbidimeter_designs.png">
 
 **Avoiding ambient light effects**. Most of the 'DIY' methods in the literature [1], [2], [3] for measuring turbidity avoid ambient light contamination by creating an opaque enclosure around the sample being tested (a sample holder inside a light-tight box). For a field-based instrument, measurements must be done continuously, and allow for the passage of fluid through the sampling area.  This requirement of fluid flow makes designing a light-tight enclosure difficult, adding to the cost of the design.
 
