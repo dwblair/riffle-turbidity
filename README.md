@@ -104,7 +104,7 @@ A useful research project would be to investigate, using a commercial turbidimet
 Monitoring Residential Drinking Water Quality: http://www2.ucy.ac.cy/~faniseng/publications/SENSAPPEAL09.pdf
 4. Cutting oil:  https://www.amazon.com/CRC-14050-Cutting-Thread-Lubricant/dp/B000M8NYIU
 
-# Background Reading
+# Guides to turbidity
 
 - Fondriest review: http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/
 - Hach overview: http://www.hach.com/asset-get.download-en.jsa?code=61798
