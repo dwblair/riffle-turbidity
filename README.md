@@ -60,9 +60,7 @@ Arduino IDE code for this circuit (see 'riffle_turbidity.ino' in this repoistory
  
 ## Calibration Methods
 
-### Subsitutes for expensive standards
-
-The EPA Standard Method 180.1 for calibrating turbidimeters uses formazin -- an expensive, hazardous chemical -- or one of a few approved alternatives (which tend to be expensive).  
+**Subsitutes for expensive standards.** The EPA Standard Method 180.1 for calibrating turbidimeters uses formazin -- an expensive, hazardous chemical -- or one of a few approved alternatives (which tend to be expensive).  
 
 Researchers in [3] initially attempted using suspensions of skim milk for calibrating their device, but eventually determined that these suspensions changed too quickly over time to be useful as turbidity standards. Instead, they chose to use suspensions of hydrophilic cutting oil, which they found to be relatively stable.  The project in [1] also followed this approach.  
 
@@ -72,19 +70,17 @@ In the below figure from Ref [1]), for example, samples from 0 to 0.5 NTU (deter
 
 <img src="pics/ref1_relationship.png" width=400>
 
-**Note**: this linear model did not work as well across a wider range of turbidity; so the researchers in [1] broke the samples down into several distinct regions:  0–0.5 NTU; 0.5–30 NTU; 30–300 NTU; and 300–1,100 NTU, which were locally linear. 
+This linear model did not work as well across a wider range of turbidity; so the researchers in [1] broke the samples down into several distinct regions:  0–0.5 NTU; 0.5–30 NTU; 30–300 NTU; and 300–1,100 NTU, which were locally linear. 
 
 <img src="pics/ref1_wide_region.png" width=400>
 
-### Avoiding expensive commercial instrumentation
-
-Cutting oil is inexpensive, and [widely available commercially](https://www.amazon.com/CRC-14050-Cutting-Thread-Lubricant/dp/B000M8NYIU); but commercial turbidimeters are not as accessible. 
+**Avoiding expensive commercial instrumentation.** Cutting oil is inexpensive, and [widely available commercially](https://www.amazon.com/CRC-14050-Cutting-Thread-Lubricant/dp/B000M8NYIU); but commercial turbidimeters are not as accessible. 
 
 Helpfully, the researchers in [3] used a similar approach to [1], but also published a figure showing the relationship between NTU and the various concentrations of cutting oil used in their samples:
 
 <img src="pics/ntu_vs_oil.png" width=400>
 
-### Turbidity calibration research project.
+## Turbidity calibration research idea.
 
 A useful research project would be to investigate, using a commercial turbidimeter, the variability in this relationship between NTU and cutting oil concentration, both within and across particular brands of cutting oil.    If it was found that, for example, a particular brand of cutting oil had a relatively consistent NTU vs. concentration, that brand could be recommended as an NTU standard.  
 
