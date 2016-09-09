@@ -4,9 +4,17 @@
 
 Turbidity, an optical technique for assessing suspended solids in liquid -- is an important water quality parameter.  Typically, light is shone into a liquid sample, and the amount of light scattered back out of the sample (off of particles suspended in it) is measured; the intensity of this scattered light is considered to be related to the amount of suspended solids in the sample.  
 
+Various instrumentation technqiues have been developed to mitigate the effects of particle size, color, and distrubtion when attempting to determine a simple 'concentration' metric from light-based measurements.  Most of these techniques involve special arrangements of the light sources and light detectors:
+
 <img src = "pics/turbidimeter_designs.png" with=300>
 
-**Avoiding ambient light effects**. Most of the 'DIY' methods in the literature [1], [2], [3] for measuring turbidity avoid ambient light contamination by creating an opaque enclosure around the sample being tested (a sample holder inside a light-tight box). For a field-based instrument, measurements must be done continuously, and allow for the passage of fluid through the sampling area.  This requirement of fluid flow makes designing a light-tight enclosure difficult, adding to the cost of the design.
+For the most basic arrangement (a single light source and single detector), it has been determined that the best arrangement for avoiding unwanted scattering artefacts is a 'right angle' arrangement between source and detector. 
+
+**Avoiding ambient light effects**. Most of the 'DIY' methods in the literature [1], [2], [3] for measuring turbidity -- which are usually based on instrumetation that is typically located within a laboratory -- attempt to avoid ambient light contamination by creating an opaque enclosure around the sample being tested (a sample holder inside a light-tight box). 
+
+<img src="pics/cuvette.png">
+
+For a field-based instrument, measurements must be done continuously, and allow for the passage of fluid through the sampling area.  This requirement of fluid flow makes designing a light-tight enclosure difficult, adding to the cost of the design.
 
 The circuit design in this repository takes a different approach: it uses a light pulse modulation and filtering technique that, in principle, does not require a light-tight enclosure. 
 
@@ -18,7 +26,7 @@ The basic idea, described [here](http://www.analog.com/media/en/technical-docume
 
 ## Circuit
 
-The circuit consists of two main parts -- an **emitter** (the light source shone into the water) and a **detector** (the light measurement).
+The circuit consists of two main parts -- an **emitter** (the light source shone into the water) and a **detector** (the light measuring device).
 
 The **emitter** is a photodiode (with wavelength around 800 nm, as this is considered to have better scattering properties for turbidity measurements [REF]), pulsed via 'pulse width modulation' [REF] via a pin on the Riffle (a PWM Arduino IDE pin) at a frequency of about 2 kHz.  
 
